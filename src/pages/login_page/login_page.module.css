@@ -1,0 +1,62 @@
+.login-form,
+.email-field,
+.password-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.email-field > input,
+.password-field > input,
+.submit-btn,
+.change-state-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+.submit-btn {
+  text-transform: uppercase;
+  border: none;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.submit-btn:hover,
+.change-state-btn:hover {
+  cursor: pointer;
+}
+
+.change-state-btn {
+  background-color: #e9ecef;
+  border: none;
+  text-transform: capitalize;
+  color: #343a40;
+}
+
+.change-state-btn:hover {
+  background-color: #ced4da;
+}
+
+.login-form {
+  background-color: #e9ecef;
+  font-size: 1.8rem;
+  padding: 6rem 3rem;
+  flex-basis: 40rem;
+  gap: 4rem;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

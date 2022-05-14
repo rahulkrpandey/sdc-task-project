@@ -1,0 +1,94 @@
+h3 {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+h3 > p {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+h3 > p:first-child {
+  width: 25rem;
+}
+
+h3 > p:last-child {
+  font-weight: 400;
+}
+
+.id-card {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  max-width: 60rem;
+  margin: 0 2rem;
+  margin-bottom: 5rem;
+}
+
+.university,
+.id {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.id {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.logo {
+  max-width: 10rem;
+}
+
+.logo-univ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+  gap: 2rem;
+  background-color: #e9ecef;
+}
+
+.content {
+  padding-left: 6rem;
+  padding-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  h3 {
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 > p {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+  }
+
+  h3 > p:first-child {
+    width: 18rem;
+  }
+
+  h3 > p:last-child {
+    font-weight: 400;
+  }
+  .university,
+  .id {
+    font-size: 2rem;
+  }
+
+  .logo-univ {
+    gap: 1.5rem;
+  }
+
+  .content {
+    padding-left: 4rem;
+  }
+
+  .id-card {
+    max-width: calc(100vw - 10vw);
+  }
+}
